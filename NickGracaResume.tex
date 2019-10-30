@@ -1,0 +1,190 @@
+%-------------------------
+% Resume in Latex
+% Author : Amlaan Bhoi
+% Adapted from: Sourabh Bajaj
+% License : MIT
+% Modified by : Nicholas Graca 10/3/19
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.40in}
+\addtolength{\evensidemargin}{-0.40in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & {#2} \\
+      \hspace{-10pt}{#3} & {#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\href{https://github.com/njg7716}{\huge Nicholas Graca}} \\
+  {njg7716@rit.edu} $\vert$
+  508-971-0886 $\vert$ East Freetown, MA
+\end{center}
+\begin{center}
+  LinkedIn: \href{https://www.linkedin.com/in/njg7716}{https://www.linkedin.com/in/njg7716} $\vert$
+  Github: \href{https://github.com/njg7716}{https://github.com/njg7716}
+\end{center}
+%\bigskip
+%-----------SKILLS-----------------
+\shorterSection{Technical Skills}
+  \resumeSubHeadingListStart
+  \normalsize
+    \item{
+     \textbf{Languages}{: Python, Java, C, MySQL, MIPS Assembly, Bash, PowerShell}
+     %\hfill
+    }
+    \item{
+    \textbf{Technologies}{: Wireshark, VMware, Git, Docker, Mac, F5, Ansible, Networking, Nginx, Burp, SQLmap}
+    }
+    \vspace{-5pt}
+\resumeSubHeadingListEnd
+%\bigskip
+%-----------EXPERIENCE-----------------
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sherwin-Williams}{Cleveland, OH}
+      {Application Security Intern}{May 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{F5}
+          {Participated in upgrading the version of the F5 which required us bringing down some websites. Worked with a team of people to automate certain processes in the F5. Staying up to date with the F5 software allows us more control over the websites that we are responsible to secure. All of configuration files for the F5 are in source code control which allows us to audit our code.}
+        \resumeItem{Internal Web Application Penetration Test}
+        {Performed a manual Penetration Test on an internal application and worked with the developers of the application to remediate vulnerabilities to make us a more secure company and to work along side with and teach Developers how to securely code.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {RIT IST Department}{Rochester, NY}
+      {Lab Assistant}{November 2018 - May 2019}
+      \resumeItemListStart
+        \resumeItem{Maintenance}
+          {Configure the equipment in the labs for classes and appliance upgrades/replacements to allow students to learn on the most up to date hardware.}
+        \resumeItem{Troubleshooting}
+          {Help students with their lab if some of the equipment was broken so that they can complete their assignments.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {RIT}{Rochester, NY}
+      {Research Assistant}{September 2017 - September 2018}
+      \resumeItemListStart
+        \resumeItem{Game Testing}
+          {Tested and developed her Gamified Digital Forensics Course Modules for Undergraduates. These courses taught the basic concepts of Computer Forensics to students.}
+        \resumeItem{Web Site Maintenance}
+          {Tested and maintained the website that hosted the game.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {YMCA}{New Bedford, MA}
+      {Swim Coach}{Summer 2018}
+      \resumeItemListStart
+        \resumeItem{Coaching}
+          {Creating the practices and instructing ages 8-16 on how to improve their different strokes and techniques.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%\bigskip
+%-----------PROJECTS-----------------
+\shorterSection{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Home Lab}{}{}{}
+      \vspace{-20pt}
+      \item{Had a raspberry pi as a SSH/Telnet honeypot called cowrie and posted results to a kippo-graph web server.}
+      \vspace{-5pt}
+      \item{Setup raspberry pi as a DNS server called Pihole that blocks ads over both IPv4 and IPv6.}
+      \vspace{-5pt}
+      \item{Configured router to port-forward to honeypot to expose the SSH, Telnet, and web server. It also had a VPN which allowed me to connect to my internal network to safely maintain all the machines.}
+  \resumeSubHeadingListEnd
+%\bigskip
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rochester Institute of Technology}{December 2020}
+      {Bachelors of Science in Computing Security with a minor in Networking and Systems Administration}{}
+    \resumeSubheading
+      {GPA: 3.01/4.0}
+      {}
+      {Dean's List: Fall 2018, Spring 2019}{}
+  \resumeSubHeadingListEnd
+%-----------Additional Experience & Achievements-----------------
+\bigskip
+\shorterSection{Additional Experience \& Achievements}
+  \resumeSubHeadingListStart
+  \normalsize
+    \item{Member of the RIT Men's Division III Varsity Swimming and Diving team from Fall 2016 to present.}
+    \vspace{-5pt}
+    \item{Member in the RIT Security Club called RITSec and the RIT Networking Club called NextHop}
+    \vspace{-5pt}
+    \item{Competed in and helped run Incident Response Security(IRSec), Information Security Talent Search(ISTS) and the Network and Systems Infrastructure Competion(NSIC) which are competitions held by the clubs mentioned above.}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
