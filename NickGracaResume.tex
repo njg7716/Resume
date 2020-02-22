@@ -87,13 +87,9 @@
 
 %----------HEADING-----------------
 \begin{center}
-  \small \textbf{\href{https://github.com/njg7716}{\huge Nicholas Graca}} \\  
-  {njg7716@rit.edu} $\vert$
-  508-971-0886 $\vert$ East Freetown, MA
-\end{center}
-\begin{center}
-  LinkedIn: \href{https://www.linkedin.com/in/njg7716}{https://www.linkedin.com/in/njg7716} $\vert$
-  Github: \href{https://github.com/njg7716}{https://github.com/njg7716}
+  \small \textbf{\href{https://github.com/njg7716}{\huge Nicholas Graca}} \\
+  \href{mailto:nickgraca@mail.rit.edu}{nickgraca@mail.rit.edu} $\vert$ LinkedIn: \href{https://www.linkedin.com/in/njg7716}{linkedin.com/in/njg7716} $\vert$ Github: \href{https://www.github.com/njg7716}{github.com/njg7716} $\vert$
+  508-971-0886
 \end{center}
 %\bigskip
 %-----------SKILLS-----------------
@@ -101,11 +97,11 @@
   \resumeSubHeadingListStart
   \normalsize
     \item{
-     \textbf{Languages}{: Python, Java, C, MySQL, MIPS Assembly, Bash, PowerShell}
+     \textbf{Languages}{: Python, Bash, Java, C, MySQL, MIPS Assembly, PowerShell}
      %\hfill
     }
     \item{
-    \textbf{Technologies}{: Wireshark, VMware, Git, Docker, Mac, F5, Ansible, Networking, Nginx, Burp, SQLmap}
+    \textbf{Technologies}{: Wireshark, VMware, Git, Docker, Linux, F5, Ansible, Networking, Nginx, Burp, SQLmap}
     }
     \vspace{-5pt}
 \resumeSubHeadingListEnd
@@ -114,40 +110,35 @@
 \shorterSection{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Sherwin-Williams}{Cleveland, OH}
-      {Application Security Intern (Full Time)}{May 2019 - Present}
+      {Sherwin-Williams | \normalfont{Application Security Intern}}{May 2019 - December 2019}
+      {\vspace{-10pt}}{\vspace{-10pt}}
       \resumeItemListStart
-        \resumeItem{F5}
-          {Participated in upgrading the version of the F5 which required us bringing down some websites. Worked with a team of people to automate certain processes in the F5. Staying up to date with the F5 software allows us more control over the websites that we are responsible to secure. All of configuration files for the F5 are in source code control which allows us to audit our code.}
+        \resumeItem{Upgrade F5 WAF}
+          {Wrote scripts to test F5 functionality after version upgrade}
+        \resumeItem{Automate F5}{Used Ansible playbook to automate the deployment of new objects to F5}
+        \resumeItem{Audit F5}{All F5 code was in GitHub which allowed us to audit the configuration}
         \resumeItem{Internal Web Application Penetration Test}
         {Performed a manual Penetration Test on an internal application and worked with the developers of the application to remediate vulnerabilities to make us a more secure company and to work along side with and teach Developers how to securely code.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {RIT IST Department}{Rochester, NY}
-      {Lab Assistant}{November 2018 - May 2019}
+      {RIT iSchool Department | \normalfont{Lab Assistant}}{November 2018 - May 2019}
+      {\vspace{-10pt}}{\vspace{-10pt}}
       \resumeItemListStart
         \resumeItem{Maintenance}
-          {Configure the equipment in the labs for classes and appliance upgrades/replacements to allow students to learn on the most up to date hardware.}
+          {Configured the equipment in the labs for classes and appliance upgrades/replacements to allow students to learn on the most up to date hardware.}
         \resumeItem{Troubleshooting}
           {Help students with their lab if some of the equipment was broken so that they can complete their assignments.}
       \resumeItemListEnd
-      
+
     \resumeSubheading
-      {RIT}{Rochester, NY}
-      {Research Assistant}{September 2017 - September 2018}
+      {RIT | \normalfont{Research Assistant}}{September 2017 - September 2018}
+      {\vspace{-10pt}}{\vspace{-10pt}}
       \resumeItemListStart
         \resumeItem{Game Testing}
-          {Tested and developed her Gamified Digital Forensics Course Modules for Undergraduates. These courses taught the basic concepts of Computer Forensics to students.}
+          {Assessed the quality of an application designed to teach digital forensics at a college level.}
         \resumeItem{Web Site Maintenance}
-          {Tested and maintained the website that hosted the game.}
-      \resumeItemListEnd
-    \resumeSubheading
-      {YMCA}{New Bedford, MA}
-      {Swim Coach}{Summer 2018}
-      \resumeItemListStart
-        \resumeItem{Coaching}
-          {Creating the practices and instructing ages 8-16 on how to improve their different strokes and techniques.}
+          {Tested and maintained the web application.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 %\bigskip
@@ -157,11 +148,12 @@
     \resumeSubheading
       {Home Lab}{}{}{}
       \vspace{-20pt}
-      \item{Had a Raspberry Pi as a SSH/Telnet honeypot called Cowrie and posted results to a Kippo-Graph web server.}
+      \item{\textbf{Honeypot: }}{Had a Raspberry Pi running Cowrie, a SSH/Telnet honeypot and posted results to a Kippo-Graph web server.}
       \vspace{-5pt}
-      \item{Setup Raspberry Pi as a DNS server called Pihole that blocks ads over both IPv4 and IPv6.}
+      \item{\textbf{Pihole: }}{Setup Pihole on a Raspberry Pi in a Docker container which is a DNS server that blocks known advertisement domains}
       \vspace{-5pt}
-      \item{Configured router to port-forward to honeypot to expose the SSH, Telnet, and web server. It also had a VPN which allowed me to connect to my internal network to safely maintain all the machines.}
+      \item{\textbf{External Access: }}{It also had a VPN which allowed me to connect to my internal network to safely maintain all the machines.}
+      \vspace{-5pt}
   \resumeSubHeadingListEnd
 %\bigskip
 %-----------EDUCATION-----------------
@@ -169,22 +161,23 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Rochester Institute of Technology}{Graduating December 2020}
-      {Bachelors of Science in Computing Security}{Minor in Networking and Systems Administration}
+      {BS Computing Security}{Minor in Networking and Systems Administration}
     \resumeSubheading
       {Department GPA: 3.54 Overall GPA: 3.01}
       {}
       {Dean's List: Fall 2018, Spring 2019}{}
   \resumeSubHeadingListEnd
+  \vspace{-10pt}
 %-----------Additional Experience & Achievements-----------------
 \bigskip
 \shorterSection{Additional Experience \& Achievements}
   \resumeSubHeadingListStart
   \normalsize
-    \item{Member of the RIT Men's Division III Varsity Swimming and Diving team from Fall 2016 to present.}
+    \item{Member of the RIT Men's Division III Varsity Swimming and Diving team from Fall 2016 to 2019.}
     \vspace{-5pt}
-    \item{Member in the RIT Security Club called RITSec and the RIT Networking Club called NextHop}
+    \item{Member of the RIT Security Club called RITSEC and the RIT Networking Club called NextHop}
     \vspace{-5pt}
-    \item{Competed in and helped run Incident Response Security(IRSec), Information Security Talent Search(ISTS) and the Network and Systems Infrastructure Competion(NSIC) which are competitions held by the clubs mentioned above.}
+    \item{Competed in and helped run Incident Response Security Competition (IRSEC 3rd Place), Information Security Talent Search (ISTS) and the Network and Systems Infrastructure Competion (NSIC), competitions hosted by RITSEC and NextHop.}
   \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
